@@ -1,0 +1,55 @@
+﻿@charset "utf-8";
+/* CSS Document */
+h1,h2,h3,h4,h5,h6{padding:0px;margin:0px;font-size:12px;font-weight:normal;}
+.mzlogo{float:left;}
+/*内容搜索结果页*/
+.pagehead_search{height:45px;padding-top:50px;border-bottom:1px solid #E7ECED;text-align:center;color:#797b7c;}
+.pagehead_search h5{display:inline;font-size:16px;font-family:'Microsoft YaHei','微软雅黑','黑体',Arial, Helvetica, sans-serif;}
+.magnifier{padding:0px 10px;background:url(../image/bg.png) no-repeat 0px 3px;}
+.pagetheme_search{font-family:'Microsoft YaHei','微软雅黑',Arial, Helvetica, sans-serif;}
+/*作者搜索结果页*/
+.pagehead_author{height:200px;padding-top:10px;border-bottom:1px solid #E7ECED;text-align:center;color:#a1a9ac;}
+#.photo_author{margin-bottom:10px;}
+.pagetheme_author{font-size:16px;font-family:'Microsoft YaHei','微软雅黑','黑体',Arial, Helvetica, sans-serif;}
+.name_author{font-family:Arial;}
+/*post页*/
+.contain_post #articlelist{padding:19px 130px 20px 130px; overflow:hidden;}
+.article_post{border:none;width:680px;padding-bottom:10px;}
+.article_post .author{margin-left: 53px;}
+.article_post .article_title{margin-top:10px;}
+.article_post .title a{margin-left:15px;margin-bottom:2px;width:600px;}
+
+.article_post .article_content{margin:13px 0px 0px 71px;padding-bottom:15px;color:#3e4346;font-size:14px;line-height:27px;}
+.article_post .article_content blockquote{border-left: 5px solid #EAEEF1;color: #555555;margin: 20px;padding: 0 20px;}
+.article_post .article_content blockquote p{margin-bottom:10px;}
+.article_post .article_content img{margin-top:-5px;width:600px;margin-bottom:10px;}
+.article_post .article_text{margin-top:40px;color:#3e4346;font-size:14px;}
+.sharebtn_post{padding:20px 0px 0px 71px;}
+.sharebtn_post a{display:inline-block;width:115px;height:28px;background:url(../image/分享灰色.png) no-repeat 0px 0px;}
+.sharebtn_post a:hover{background:url(../image/分享红色.png) no-repeat}
+/*post页评论部分*/
+.reviews_post{border-top:1px solid #eaeaea;padding:25px 185px 0px 185px;position:relative;}
+.reviews_post_mz{padding:15px 185px 0px 201px;position:relative;}
+.reviewshead_post{width:61px;_width:115px;height:25px;font-size:22px;color:#b2bec4;background:url(../image/bg.png) no-repeat -208px -126px;background-color:white;position:absolute;left:180px;_left:-22px;top:-16px;padding-left:54px;}
+#commentform{margin-left:16px;}
+.reviewcontent_post{width:600px;height:80px;border:1px solid #e6e6e6;border-radius:3px 3px 3px 3px;color:#b2bec4;padding:10px;margin-bottom:20px;}
+.username_post{width:166px;height:30px;line-height:30px;margin-right:20px;border:1px solid #e6e6e6;border-radius:3px 3px 3px 3px;color:#b2bec4;font-size:14px;padding:0px 10px;}
+.useremail_post{width:230px;height:30px;line-height:30px;margin-right:22px;border:1px solid #e6e6e6;border-radius:3px 3px 3px 3px;color:#b2bec4;font-size:14px;padding:0px 10px;}
+.okreview_post{display:inline-block;width:70px;height:32px;margin-top:5px;}
+a.okreview_post input{width:70px;height:32px;background-color:rgb(186,186,186);color:#FFFFFF;border:0px solid #53b7db;border-radius:3px 3px 3px 3px;font-size:14px;cursor:pointer;}
+a.okreview_post:hover input{background-color:#21a0db;border:1px solid #2b8aaa;}
+.othersreview_post{color:#3e4346;}
+.title_orpost{height:52px;line-height:52px;font-size:16px;font-weight:bold;color:#3c3f40;margin:20px 0px 0px 0px;}
+.reviewlist_post{font-size:14px;}
+.reviewlist_post li{border-top:1px solid #ebebeb;padding-bottom:20px;padding-top:10px;line-height:25px;}
+.reviewlist_post_mz{border-top:1px solid #ebebeb;padding-bottom:10px;padding-top:20px;width:560px;}
+.userinfo_rlpost{height:40px;line-height:40px;color:#cccfd0;font-weight:bold;}
+.username_rlpost{color:#3e4346;font-weight:800;font-size:14px;}
+.btnbar_orpost{text-align:center;padding-top:10px;padding-bottom:50px;}
+.more_orpost {width:180px;height:32px;background-color:#ebecee;border:1px solid #d9d9db;border-radius:3px 3px 3px 3px;color:#a0a1a2;font-size:14px;cursor:pointer;}
+
+.comment-mz{font-size:14px;line-height:23px;}
+.commentlist{padding-left:0px;margin-top:0px}
+.time_rlpost{color:#CCCFD0;font-size:14px;font-weight:800;}
+
+
